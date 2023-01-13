@@ -27,25 +27,25 @@
    * 
    */
 
-   const buttonOpen = document.getElementById('onModal');
-   const buttonClose = document.getElementById('offModal');
+const buttonOpen = document.getElementById('onModal');
+const buttonClose = document.getElementById('offModal');
    
-   buttonOpen.addEventListener("click", function () {
-     const modalOverlay = document.getElementById('modal');
-     const modalContent = document.getElementById('modal-content');
+buttonOpen.addEventListener("click", function () {
+  const modalOverlay = document.getElementById('modal');
+  const modalContent = document.getElementById('modal-content');
 
-     modalOverlay.style.display = 'block';
-     modalContent.style.display = 'block';
-     });
+  modalOverlay.style.display = 'block';
+  modalContent.style.display = 'block';
+});
 
-   buttonClose.addEventListener("click", function() {
-     const modalOverlay = document.getElementById('modal');
-     const modalContent = document.getElementById('modal-content');
+buttonClose.addEventListener("click", function() {
+  const modalOverlay = document.getElementById('modal');
+  const modalContent = document.getElementById('modal-content');
 
-     modalOverlay.style.display = 'none';
-     modalContent.style.display = 'none';
+  modalOverlay.style.display = 'none';
+  modalContent.style.display = 'none';
 
-   });
+});
 
 
 </script>
